@@ -36,14 +36,3 @@ Once the build is complete, you can run any of the compiled executables from the
 ```sh
 ./project_name
 ```
-
-## Project Structure
-```
-graphicstemp/
-│── src/             # Source files for different OpenGL projects
-│── include/         # Header files
-│── shaders/         # GLSL shader programs
-│── resources/       # Additional resources (textures, models, etc.)
-│── CMakeLists.txt   # CMake configuration file
-│── README.md        # This file
-```
