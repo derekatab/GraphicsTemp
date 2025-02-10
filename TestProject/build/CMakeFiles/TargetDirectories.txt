@@ -1,0 +1,3 @@
+C:/Users/derek/OneDrive/Documents/OpenGL/GraphicsTemp/TestProject/build/CMakeFiles/TestProject.dir
+C:/Users/derek/OneDrive/Documents/OpenGL/GraphicsTemp/TestProject/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/derek/OneDrive/Documents/OpenGL/GraphicsTemp/TestProject/build/CMakeFiles/ZERO_CHECK.dir
