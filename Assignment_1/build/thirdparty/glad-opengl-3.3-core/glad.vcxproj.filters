@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\glad-opengl-3.3-core\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\glad-opengl-3.3-core\include\glad\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\glad-opengl-3.3-core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{16A8139F-043E-3D0A-A501-88BB00C0A172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9E252B27-61CA-34BC-8104-0E5824921F3F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

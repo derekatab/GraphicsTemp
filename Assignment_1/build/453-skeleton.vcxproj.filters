@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\AssetPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\GLDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\GLHandles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\VertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\AssetPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\GLDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\GLHandles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\ShaderProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\VertexArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\453-skeleton\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{16A8139F-043E-3D0A-A501-88BB00C0A172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9E252B27-61CA-34BC-8104-0E5824921F3F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

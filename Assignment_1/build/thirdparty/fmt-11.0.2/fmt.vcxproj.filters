@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\src\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\src\os.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\args.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\chrono.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\compile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\format-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\os.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\ostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\printf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\ranges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\std.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\include\fmt\xchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\README.md" />
+    <None Include="C:\Users\derek\OneDrive\Documents\OpenGL\GraphicsTemp\CPSC-453-Assignment-1-Boilerplate\thirdparty\fmt-11.0.2\ChangeLog.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{16A8139F-043E-3D0A-A501-88BB00C0A172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9E252B27-61CA-34BC-8104-0E5824921F3F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
