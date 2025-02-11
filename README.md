@@ -1,6 +1,6 @@
 # GraphicsTemp
 
-This repository contains interesting OpenGL projects I am working on. These projects explore various graphics programming concepts, including rendering, shaders, transformations, and more.
+This repository is for personal reference and contains neat OpenGL projects I am working on. Trying to learn rendering, shaders, transformations.
 
 ## Getting Started
 

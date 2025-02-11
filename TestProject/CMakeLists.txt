@@ -9,13 +9,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # we also need glfw, glew, glm
-include_directories("C:/Program Files/OpenGL/glfw/include")
-include_directories("C:/Program Files/OpenGL/glew/include")
-include_directories("C:/Program Files/OpenGL/glm")
+include_directories("C:/Users/derek/OneDrive/Documents/OpenGL/glfw/include")
+include_directories("C:/Users/derek/OneDrive/Documents/OpenGL/glew/include")
+include_directories("C:/Users/derek/OneDrive/Documents/OpenGL/glm")
 
 # link directories
-link_directories("C:/Program Files/OpenGL/glfw/lib-vc2022") # grab the .lib files
-link_directories("C:/Program Files/OpenGL/glew/lib/Release/x64")
+link_directories("C:/Users/derek/OneDrive/Documents/OpenGL/glfw/lib-vc-2022") # grab the .lib files
+link_directories("C:/Users/derek/OneDrive/Documents/OpenGL/glew/lib/Release/x64")
 
 # create executable
 add_executable(TestProject src/main.cpp)

@@ -1,3 +1,5 @@
 {
-    "cmake.sourceDirectory": "C:/Users/derek/OneDrive/Documents/OpenGL/GraphicsTemp/TestProject"
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }

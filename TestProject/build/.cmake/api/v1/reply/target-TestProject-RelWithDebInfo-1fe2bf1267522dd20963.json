@@ -94,15 +94,15 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Program Files/OpenGL/glfw/include"
+					"path" : "C:/Users/derek/OneDrive/Documents/OpenGL/glfw/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "C:/Program Files/OpenGL/glew/include"
+					"path" : "C:/Users/derek/OneDrive/Documents/OpenGL/glew/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Program Files/OpenGL/glm"
+					"path" : "C:/Users/derek/OneDrive/Documents/OpenGL/glm"
 				}
 			],
 			"language" : "CXX",
@@ -136,17 +136,17 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"fragment" : "/machine:X86 /debug /INCREMENTAL /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LIBPATH:C:\\PROGRA~1\\OpenGL\\glfw\\lib-vc2022",
+				"fragment" : "-LIBPATH:C:\\Users\\derek\\OneDrive\\Documents\\OpenGL\\glfw\\lib-vc-2022",
 				"role" : "libraryPath"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-LIBPATH:C:\\PROGRA~1\\OpenGL\\glew\\lib\\Release\\x64",
+				"fragment" : "-LIBPATH:C:\\Users\\derek\\OneDrive\\Documents\\OpenGL\\glew\\lib\\Release\\x64",
 				"role" : "libraryPath"
 			},
 			{
