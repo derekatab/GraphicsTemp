@@ -7,7 +7,7 @@ Visualize different fractals using keyboard controls. The program supports three
 
 ## Compilation Instructions
 1. Unzip the project folder.
-2. Open a terminal or command prompt and navigate (`cd`) to the `build` folder.
+2. Open a terminal or command prompt and navigate (`cd`) to the `build` subfolder from the main (unzipped) folder.
 3. Run the following command to compile the project:
    ```
    cmake --build .
