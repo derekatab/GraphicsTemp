@@ -119,13 +119,3 @@ glm::ivec2 Window::getSize() const
 	glfwGetWindowSize(window.get(), &w, &h);
 	return glm::ivec2(w, h);
 }
-
-// new function to handle events
-void Window::handleEvents()
-{
-	ImGuiIO &io = ImGui::GetIO();
-	if (!io.WantCaptureKeyboard)
-	{ // Only poll for events if ImGui doesn't need them, because it handles them as a priority
-		glfwPollEvents();
-	}
-}

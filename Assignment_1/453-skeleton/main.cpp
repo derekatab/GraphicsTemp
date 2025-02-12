@@ -15,7 +15,6 @@
 #include "Shader.h"
 #include "Window.h"
 #include "AssetPath.h"
-#include <corecrt_math_defines.h>  // added this for M_PI
 #include <functional>			   // added this for std::function
 #include <glm/gtx/string_cast.hpp> // this is for printing glm::vec3 types, which I needed during the debugging
 
@@ -288,12 +287,11 @@ int main()
 	// --- Setup of ImGUI ---
 	IMGUI_CHECKVERSION();
 	ImGui::CreateContext();		  // create a new context
-	ImGuiIO &io = ImGui::GetIO(); // get an IO object for config
 
 	ImGui::StyleColorsDark(); // set the style to dark
 
 	ImGui_ImplGlfw_InitForOpenGL(window.getGLFWwindow(), true); // initialize the imgui for the window
-	ImGui_ImplOpenGL3_Init("#version 130");						// initialize the imgui for the opengl version which the shaders have also been using
+	ImGui_ImplOpenGL3_Init("#version 460");						// initialize the imgui for the opengl version which the shaders have also been using
 
 	// SHADERS
 	ShaderProgram shader(
@@ -314,15 +312,28 @@ int main()
 	// RENDER LOOP
 	while (!window.shouldClose())
 	{
+		shader.use(); // Use "this" shader to render
+		gGeom.bind(); // USe "this" VAO (Geometry) on render call
+
+		glEnable(GL_FRAMEBUFFER_SRGB); // Expect Colour to be encoded in sRGB standard (as opposed to RGB)
+		// https://www.viewsonic.com/library/creative-work/srgb-vs-adobe-rgb-which-one-to-use/
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // Clear render screen (all zero) and depth (all max depth)
+
 		// --- Start a new ImGui frame ---
 		ImGui_ImplOpenGL3_NewFrame();
 		ImGui_ImplGlfw_NewFrame();
 		ImGui::NewFrame();
 
-		window.handleEvents(); // handle events
+		ImGuiIO& io = ImGui::GetIO(); // retrieve a new IO for configuration
+
+		if (!io.WantCaptureKeyboard && !io.WantCaptureMouse)
+		{ // Only grab events if ImGui doesn't need them, because it handles them as a priority
+			glfwPollEvents();
+		}
 
 		// Create a window called "Control Fractals" --- for user to manage
-		ImGui::Begin("Control Fractals");
+		ImGui::Begin("Control Fractals", nullptr, ImGuiWindowFlags_AlwaysAutoResize); // make the window resizable and larger
+		ImGui::SetWindowSize(ImVec2(500, 300)); // Larger size for the window
 
 		// Add a combo box to select the fractal type
 		if (ImGui::Combo("Fractal Type", reinterpret_cast<int *>(&currentFractal), fractalNames, IM_ARRAYSIZE(fractalNames)))
@@ -340,10 +351,9 @@ int main()
 		ImGui::End(); // End the window
 
 		shader.use(); // Use "this" shader to render
-		gGeom.bind(); // USe "this" VAO (Geometry) on render call
+		gGeom.bind(); // Use "this" VAO (Geometry) on render call
 
 		glEnable(GL_FRAMEBUFFER_SRGB); // Expect Colour to be encoded in sRGB standard (as opposed to RGB)
-		// https://www.viewsonic.com/library/creative-work/srgb-vs-adobe-rgb-which-one-to-use/
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // Clear render screen (all zero) and depth (all max depth)
 		glDrawArrays(fractalConfigs[currentFractal].drawingMode, 0, static_cast<GLsizei>(cGeom.verts.size()));
 		// this is the draw call, works by referencing the struct for drawing mode and the size of the vertices, which is casted to GLsizei because it is an unsigned int
